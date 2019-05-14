@@ -108,7 +108,7 @@ def rmtoken():
 1. remove access token
 2. remove cookies
 """)
-	pilihan=int(input("/kang-newbie_> "))
+	pilihan=int(input("/kang-Dapitt_> "))
 	if pilihan == 1:
 		ques=input("\n[?] are you sure (y/n) ")
 		if ques == 'n' or ques == 'N':
@@ -202,7 +202,7 @@ try:
 [05]> Remove access token/cookies
 [06]> Facebook home comments
 [07]> Mass group comment
-[08]> Auto comments target
+[08]> dapitt Auto comments target
 [09]> Auto react comments target
 [10]> Accept all friends requests
 [11]> Auto add friends from target id
@@ -211,14 +211,14 @@ try:
 [14]> Mass auto follow
 [15]> Facebook chat spammer
 [16]> Auto posting status
-[17]> Mass Auto Report
+[17]> dapitt Auto Report
 [18]> Facebook dump email
 [19]> Facebook check apps
 [20]> Multi bruteforce EMAIL (BETA)
 [00]> Check update""")
 except (KeyError,NameError): pass
 
-pilih=int(input('\n[#] kang-newbie/> '))
+pilih=int(input('\n[#] dapitt/> '))
 if pilih == 2:
 	DOS.Dos()
 	getFid()
